@@ -227,7 +227,7 @@ const App = () => {
       icon: <User className="w-7 h-7" />,
       theme: "from-[#007AFF] to-[#00C6FF]",
       content: <About />,
-      items: ["Sameer Shaik", "Software Engineer", "Accenture", "Profile Summary"]
+      items: ["Sameer Shaik", "Associate Software Engineer", "Accenture", "Profile Summary"]
     },
     skills: {
       title: "Skills",
@@ -391,7 +391,7 @@ const App = () => {
             },
             {
               label: "Edit", items: [
-                { label: "Copy Bio", onClick: () => navigator.clipboard.writeText("Software Engineer with 1 year of experience developing and maintaining enterprise-grade web applications.") },
+                { label: "Copy Bio", onClick: () => navigator.clipboard.writeText("Associate Software Engineer with 1 year of experience developing and maintaining enterprise-grade web applications.") },
                 { label: "Copy Email", onClick: () => navigator.clipboard.writeText("sameershaik12252003@gmail.com") },
                 { label: "Copy LinkedIn URL", onClick: () => navigator.clipboard.writeText("linkedin.com/in/sameer98") },
                 { label: "Copy GitHub URL", onClick: () => navigator.clipboard.writeText("https://github.com/sameer-i") }

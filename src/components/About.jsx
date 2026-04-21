@@ -4,7 +4,7 @@ import profilePic from '../assets/profile.jpg';
 
 const About = ({ searchQuery = "", viewMode = "list" }) => {
     const summaryPoints = [
-        "Software Engineer with 1 year of experience developing and maintaining enterprise-grade web applications using JavaScript, Java, and MVC architecture.",
+        "Associate Software Engineer with 1 year of experience developing and maintaining enterprise-grade web applications using JavaScript, Java, and MVC architecture.",
         "Currently contributing to a global e-commerce platform serving 10+ international markets at Accenture.",
         "Skilled in debugging complex systems, optimizing backend logic, and delivering accessible, production-ready code in Agile environments."
     ];
