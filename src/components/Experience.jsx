@@ -2,6 +2,7 @@ import React from 'react';
 import { History } from 'lucide-react';
 import GitamLogo from '../assets/gitam-logo.png';
 import AgniravaLogo from '../assets/agnirava-logo.png';
+import AccentureLogo from '../assets/accenture-logo.png';
 
 const Experience = ({ searchQuery = "", viewMode = "list" }) => {
     const experiences = [
@@ -11,7 +12,7 @@ const Experience = ({ searchQuery = "", viewMode = "list" }) => {
             type: "Full-time",
             period: "Oct 2025 – Present",
             location: "Hyderabad",
-            logo: null,
+            logo: AccentureLogo,
             color: "text-[#AF52DE]",
             bg: "bg-[#AF52DE]/10",
             points: [
@@ -30,7 +31,7 @@ const Experience = ({ searchQuery = "", viewMode = "list" }) => {
             type: "Internship",
             period: "Feb 2025– June 2025",
             location: "Bengaluru",
-            logo: null,
+            logo: AccentureLogo,
             color: "text-[#007AFF]",
             bg: "bg-[#007AFF]/10",
             points: [
