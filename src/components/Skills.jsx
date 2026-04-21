@@ -101,7 +101,7 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
                 ))}
             </div>
 
-            {!isAnyMatchElement && (
+            {filteredCategories.length === 0 && (
                 <div className="py-20 flex flex-col items-center justify-center text-center opacity-40 font-bold text-sm w-full">
                     <div className="w-12 h-12 mb-4 opacity-20 border-4 border-current rounded-lg flex items-center justify-center">
                         <div className="w-6 h-1 bg-current rounded-full" />
