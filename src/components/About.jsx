@@ -21,7 +21,7 @@ const About = ({ searchQuery = "", viewMode = "list" }) => {
                 </div>
                 <div className="text-center md:text-left flex-1 min-w-0">
                     <h1 className="text-3xl font-extrabold tracking-tight text-[#1d1d1f]">Sameer Shaik</h1>
-                    <p className="text-[#86868b] font-medium text-lg mt-0.5">Associate Software Engineer at Accenture</p>
+                    <p className="text-[#86868b] font-medium text-lg mt-0.5">Associate Software Engineer</p>
                 </div>
             </div>
 
