@@ -84,16 +84,11 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
                 {filteredCategories.map((cat, i) => (
                     <div key={i} className="space-y-4">
                         <h3 className="text-[9px] font-black text-[#86868b] uppercase tracking-[0.2em] pl-1 border-b border-black/5 pb-2 mb-4">{cat.title}</h3>
-                        <div className="space-y-4">
+                        <div className="flex flex-wrap gap-2">
                             {cat.skills.map(s => (
-                                <div key={s.name} className="group">
-                                    <div className="flex justify-between text-[11px] font-black mb-1.5 px-1 transition-colors group-hover:text-[#007AFF]">
-                                        <span>{s.name}</span>
-                                        <span className="text-[#86868b] tabular-nums">{s.val}%</span>
-                                    </div>
-                                    <div className="h-1.5 bg-black/5 rounded-full overflow-hidden shadow-inner border border-black/5">
-                                        <div className={`h-full ${s.color} rounded-full transition-all duration-1000 ease-out shadow-sm`} style={{ width: `${s.val}%` }} />
-                                    </div>
+                                <div key={s.name} className="flex items-center gap-2 px-3 py-1.5 bg-white/40 rounded-xl border border-white/40 text-[12px] font-bold text-[#1d1d1f] hover:bg-white/60 transition-colors shadow-sm">
+                                    <div className={`w-1.5 h-1.5 rounded-full ${s.color}`} />
+                                    <span>{s.name}</span>
                                 </div>
                             ))}
                         </div>
